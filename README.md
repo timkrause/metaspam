@@ -4,6 +4,8 @@ This is a collection of scripts, which can be used to filter emails based on met
 
 *Work in Progress. Use for reasearch purposes only*
 
+Corresponding Paper "Recognizing Email Spam from Meta Data Only" Accepted at IEEE CNS 2019.
+
 ## Dependencies
 
 - Python 2.7
