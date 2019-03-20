@@ -1,8 +1,8 @@
 import argparse
 import numpy as np
-from MES.featureextraction.sqlitebackend import SQLiteBackend
-from MES.featureextraction.featureencoder import FeatureEncoder
-from MES.mail.mail import Mail
+from metaspam.featureextraction.sqlitebackend import SQLiteBackend
+from metaspam.featureextraction.featureencoder import FeatureEncoder
+from metaspam.mail.mail import Mail
 from sklearn.externals import joblib
 
 """

@@ -4,8 +4,8 @@ import sqlite3
 import sys
 import datetime
 from sklearn.ensemble import AdaBoostClassifier
-from MES.featureextraction.sqlitebackend import SQLiteBackend
-from MES.featureextraction.featureencoder import FeatureEncoder
+from metaspam.featureextraction.sqlitebackend import SQLiteBackend
+from metaspam.featureextraction.featureencoder import FeatureEncoder
 from scipy.sparse import *
 from sklearn.externals import joblib
 from dateutil.parser import parse

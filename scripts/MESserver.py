@@ -8,8 +8,8 @@ import sys
 import geoip2.database
 import ConfigParser
 import argparse
-from MES.featureextraction.sqlitebackend import SQLiteBackend
-from MES.mail.mail import Mail
+from metaspam.featureextraction.sqlitebackend import SQLiteBackend
+from metaspam.mail.mail import Mail
 from twisted.internet.protocol import Factory, Protocol
 from twisted.internet.endpoints import TCP4ServerEndpoint
 from twisted.internet import reactor

@@ -5,8 +5,8 @@ from sklearn.ensemble import AdaBoostClassifier
 from sklearn.preprocessing import StandardScaler
 from sklearn import svm
 from sklearn.model_selection import GridSearchCV
-from MES.featureextraction.sqlitebackend import SQLiteBackend
-from MES.featureextraction.featureencoder import FeatureEncoder
+from metaspam.featureextraction.sqlitebackend import SQLiteBackend
+from metaspam.featureextraction.featureencoder import FeatureEncoder
 from scipy.sparse import *
 from sklearn.externals import joblib
 
